@@ -14,6 +14,7 @@ public class ConfObject {
     private String address_test_servers;
     private int port_REST_test_servers;
 
+
     ConfObject(){
         this.component = "";
     }
