@@ -1,0 +1,15 @@
+jdbc:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://10.96.6.17:3306/distmeter_db?verifyServerCertificate=false&useSSL=false&requireSSL=false
+  username: distmeter
+  password: distmeter
+  port: 3306
+  options: logger=Slf4JLogger
+
+hibernate:
+  dialect: org.hibernate.dialect.MySQL5Dialect9DialectQL5Dialect
+  connection:
+      driver_class: com.mysql.jdbc.Driver
+      username: distmeter
+      password: distmeter
+      url: jdbc:mysql://10.96.6.17:3306/distmeter_db?verifyServerCertificate=false&useSSL=false&requireSSL=false
