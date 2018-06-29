@@ -13,11 +13,7 @@ public class DistMeter {
 
         ConfManager confManager = new ConfManager(); // Configuration object
 
-        //System.out.println("Iniciar Configuration Manager");
-        //DistConfManager distmeterConfManager = new DistConfManager(confManager);
-        //distmeterConfManager.run(args);
-
-        EntityManagerFactory emf = JPA.getEmf();
+       // EntityManagerFactory emf = JPA.getEmf();
 
         //System.out.println("Iniciar Server");
         DistmeterTestServer distmeterTestServer = new DistmeterTestServer(confManager);

@@ -12,7 +12,7 @@ import org.rapidoid.log.Log;
 @Controller
 public class DistConfManagerHTTP {
 
-    @Page("/")
+    @Page("/server/conf/tests")
     public Object main_page(){
         //TODO: Replace by instructions to read items in html page
         String aux = "<p><b>RAW page</b> HTML!<p>" +
