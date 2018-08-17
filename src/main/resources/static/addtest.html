@@ -2,11 +2,11 @@
 <html>
 <body>
 
-<h2>Distmeter Configuration Page</h2>
+<h1>Distmeter Configuration Page</h1>
 
-<form action="/action_page.php">
+<form action="/server/conf/addtest" method="get">
     Name:<br>
-    <input type="text" name="name" value="DistmeterProj">
+    <input type="text" name="Name" value="DistmeterProj">
     <br><br>
     Number of threads:<br>
     <input type="text" name="n_threads" value="1">
@@ -29,15 +29,15 @@
     Server Port:<br>
     <input type="text" name="server_port" value="0">
     <br><br>
+    Server Port:<br>
+    <input type="text" name="protocol" value="HTTP">
+    <br><br>
     Test File:<br>
     <input type="text" name="test_file" value="File01">
     <br><br>
     Date:<br>
     <input type="text" name="date_conf" value="0">
     <br><br>
-
-
-
 
     <input type="submit" value="Submit">
 </form>

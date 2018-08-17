@@ -4,7 +4,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
-import java.sql.Date;
 
 @Entity
 public class Slaves {
@@ -39,5 +38,7 @@ public class Slaves {
 
     public String status; // status of slave
 
-
+    public Slaves(){
+        this.Name = this.SlaveIP = "";
+    }
 }

@@ -19,10 +19,15 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
                     <archive>
+                        <index>true</index>
                         <manifest>
                             <addClasspath>true</addClasspath>
+                            <classpathPrefix>conf/</classpathPrefix>
                             <mainClass>DistMeter</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <Class-Path> . conf</Class-Path>
+                        </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
@@ -57,18 +62,10 @@
         <dependency>
             <groupId>org.rapidoid</groupId>
             <artifactId>rapidoid-quick</artifactId>
-            <version>5.5.4</version>
+            <version>5.5.5</version>
         </dependency>
 
-        <!--
-        <dependency>
-            <groupId>pt.uab</groupId>
-            <artifactId>distmeter-common</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/distmeter-common-1.0.jar</systemPath>
-        </dependency>
-        -->
     </dependencies>
+
 
 </project>

@@ -1,0 +1,28 @@
+on:
+  port: 8888
+  address: 0.0.0.0
+  server: 0.0.0.0
+
+net:
+  port: 8888
+  address: 0.0.0.0
+  server: 0.0.0.0
+
+rapidoid:
+  port: 8888
+  address: 0.0.0.0
+  server: 0.0.0.0
+
+api:
+  port: 8888
+  address: 0.0.0.0
+  server: 0.0.0.0
+
+jdbc:
+  driver: org.hsqldb.jdbc.JDBCDriver
+  url: jdbc:hsqldb:mem:public
+  username: sa
+  password: ''
+
+hibernate:
+  dialect: org.hibernate.dialect.HSQLDialect

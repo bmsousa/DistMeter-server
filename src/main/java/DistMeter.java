@@ -1,10 +1,5 @@
-import components.distconfmanager.DistConfManager;
 import components.disttestserver.DistmeterTestServer;
 import conf.ConfManager;
-import org.rapidoid.config.Config;
-import org.rapidoid.jpa.JPA;
-
-import javax.persistence.EntityManagerFactory;
 
 
 public class DistMeter {
